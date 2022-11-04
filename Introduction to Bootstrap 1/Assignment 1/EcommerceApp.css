@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card {
+    display: block;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.title {
+    padding: 15px;
+    width: 350px;
+}
+
+.card > img {
+    width: 100%;
+}
+.review-container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+.stars{
+    color: yellow;
+
+}
+.Price {
+    font-size: medium;
+    justify-content: space-between;
+
+}
+.Product-detail{
+     font-size: medium;
+     justify-content: center;
+}
